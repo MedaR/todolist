@@ -1,0 +1,20 @@
+<app-header></app-header>
+<div id="home">
+    <!-- Message d'intro -->
+    <div id="intro">
+        <h2>Bienvenue sur cette petite application de TodoList sous Angular </h2>
+    </div>
+    <!-- Message sous l'intro -->
+    <div id="message">
+        <p>Pour consulter la TodoList, cliquer sur le bouton sur la gauche. Si vous voulez créer un nouvel élément à la TodoList, cliquer sur le bouton sur la droite</p>
+    </div>
+    <!-- bouton de navigation -->
+    <div id="buttons">
+        <button mat-raised-button color="primary" (click)="navigationToCreate()">Create</button>
+        <button  style="margin: 5px" mat-raised-button color="primary" (click)="navigationToShow()">Show</button>
+    </div>
+    <!-- image -->
+    <div id="image">
+        <img src="/assets/todoList.jpg"/>
+    </div>
+</div>

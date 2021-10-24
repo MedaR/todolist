@@ -1,0 +1,19 @@
+#home {
+    margin: 10px
+}
+
+#intro, #message {
+    margin: 0 auto;
+    width: 600px;
+}
+
+#buttons {
+    margin: 0 auto;
+    width: 190px;
+}
+
+#image {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 550px;   
+}

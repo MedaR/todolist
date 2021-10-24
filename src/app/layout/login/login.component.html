@@ -1,0 +1,21 @@
+<div>
+    <mat-card class="example-card">
+        <mat-card-header>
+            <mat-card-title>Connectez vous</mat-card-title>
+        </mat-card-header>
+        <form class="" [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+            <mat-form-field class="example-form-field" appearance="fill">
+                <mat-label for="email">email</mat-label>
+                <input matInput type="email" class="" id="email" formControlName="email" placeholder="dupond.paul@mail.fr">
+            </mat-form-field>
+            <mat-form-field  style="margin-left: 10px"class="example-form-field" appearance="fill">
+                <mat-label for="password">password</mat-label>
+                <input matInput type="password" class="" id="password" formControlName="password">
+            </mat-form-field>
+            <button type="submit" mat-raised-button color="primary">connexion</button>
+        </form>
+        <br/>
+        <p>email : dupond.paul@mail.fr</p>
+        <p>password : azerty</p>
+    </mat-card> 
+</div>
